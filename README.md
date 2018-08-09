@@ -17,3 +17,22 @@ keytool -genkey -v -keystore key.keystore -alias key -keyalg RSA -keysize 2048 -
 ```
 ionic cordova plugin add phonegap-plugin-push --variable SENDER_ID=123456789
 ```
+```
+ionic cordova plugin rm phonegap-plugin-push
+```
+```
+login(){
+    this.navCtrl.push(LoginPage);
+  }
+```
+file `app.module.ts`
+```
+  const firebaseAuth = {
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: ""
+};
+```
