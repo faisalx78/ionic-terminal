@@ -2,7 +2,7 @@
 ```
 ionic start
 ```
-##### 
+##### اضافة صفحة للاتصال بالسيرفر
 ```
 ionic g provider authService
 ```
