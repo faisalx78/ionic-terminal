@@ -45,6 +45,7 @@ file `app.module.ts`
 };
 ```
 ##### اضافة زر في الهيدر
+`ion-buttons end` OR `ion-buttons start`
 ```
 <ion-buttons end>
     <button on-click="goToPage10()" ion-button icon-only><ion-icon name="md-wifi"></ion-icon></button>
