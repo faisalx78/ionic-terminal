@@ -11,7 +11,7 @@ import { HomePage } from '../home/home';
 })
 export class SignupPage {
 
-  @ViewChild('email') email;
+	@ViewChild('email') email;
 	@ViewChild('password') password;
 
   constructor(private alertCtrl: AlertController, private fire: AngularFireAuth, public navCtrl: NavController, public navParams: NavParams) {
