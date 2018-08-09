@@ -1,0 +1,31 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>login</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+    <ion-list>
+
+        <ion-item>
+          <ion-label floating>email</ion-label>
+          <ion-input type="text" #email></ion-input>
+        </ion-item>
+      
+        <ion-item>
+          <ion-label floating>Password</ion-label>
+          <ion-input type="password" #password></ion-input>
+        </ion-item>
+        
+      </ion-list>
+  
+
+      <button block ion-button (click)="signInUser()" item-left>Loge In</button>
+      <br>
+      <button block ion-button (click)="reset()" item-left>Reset</button>
+
+</ion-content>
