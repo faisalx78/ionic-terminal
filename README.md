@@ -44,3 +44,6 @@ file `app.module.ts`
     title
 </ion-title>
 ```
+```
+<ion-content padding style="background:url(assets/img/bg.jpg) no-repeat center;background-size:cover;" id="page2" dir="rtl">
+```
