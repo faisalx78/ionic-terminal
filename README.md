@@ -1,1 +1,3 @@
 # ionic-terminal
+
+$ ionic start
