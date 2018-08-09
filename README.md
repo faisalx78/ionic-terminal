@@ -36,3 +36,11 @@ file `app.module.ts`
   messagingSenderId: ""
 };
 ```
+```
+      <ion-buttons end>
+          <button on-click="goToPage10()" ion-button icon-only><ion-icon name="md-wifi"></ion-icon></button>
+        </ion-buttons>
+    <ion-title>
+      title
+    </ion-title>
+```
