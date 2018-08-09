@@ -27,7 +27,7 @@ login(){
 ```
 file `app.module.ts`
 ```
-  const firebaseAuth = {
+  `const` firebaseAuth = {
   apiKey: "",
   authDomain: "",
   databaseURL: "",
