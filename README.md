@@ -1,3 +1,5 @@
 # ionic-terminal
 
-$ ionic start
+```
+ionic start
+```
