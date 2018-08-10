@@ -58,3 +58,10 @@ file `app.module.ts`
 ```
 <ion-content padding style="background:url(assets/img/bg.jpg) no-repeat center;background-size:cover;" id="page2" dir="rtl">
 ```
+##### زر الخروج
+```
+logout(){
+    const root = this.app.getRootNav();
+    root.popToRoot();
+  }
+  ```
