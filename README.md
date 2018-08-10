@@ -65,6 +65,18 @@ logout(){
     root.popToRoot();
   }
   ```
-   ```
+```
   npm audit fix
-   ```
+```
+#### Page `home.ts`
+```
+import { Observable } from 'rxjs/Observable';
+----------------
+export class xxxxxxxxxx {
+
+  faisalListRef: Observable<any[]>;
+-------------------
+  
+  this.faisalListRef = this.database.list('faisalDB');
+```
+   
