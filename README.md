@@ -78,5 +78,10 @@ export class xxxxxxxxxx {
 -------------------
   
   this.faisalListRef = this.database.list('faisalDB');
+  
+-----------------------------------
+export interface FaisalItem {
+    title: string;
+}
 ```
    
