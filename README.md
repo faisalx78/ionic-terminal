@@ -65,3 +65,6 @@ logout(){
     root.popToRoot();
   }
   ```
+   ```
+  npm audit fix
+   ```
