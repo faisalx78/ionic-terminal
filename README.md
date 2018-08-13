@@ -84,4 +84,10 @@ export interface FaisalItem {
     title: string;
 }
 ```
+file `app.module.ts`
+```
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { FIREBASE_CREDENTIALS } from './firebase.credentials';
+```
    
