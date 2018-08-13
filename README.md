@@ -90,4 +90,19 @@ import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { FIREBASE_CREDENTIALS } from './firebase.credentials';
 ```
-   
+file `app.module.ts` imports:
+```
+AngularFireModule.initializeApp(FIREBASE_CREDENTIALS),
+AngularFireDatabaseModule
+```
+create file `firebase.credentials.ts` at folder`src/app`
+```
+export const FIREBASE_CREDENTIALS = {
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: ""
+  };
+```
