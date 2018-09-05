@@ -106,3 +106,6 @@ export const FIREBASE_CREDENTIALS = {
     messagingSenderId: ""
   };
 ```
+```
+tabsHideOnSubPages="true"
+```
