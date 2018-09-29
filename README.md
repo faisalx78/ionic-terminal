@@ -109,3 +109,6 @@ export const FIREBASE_CREDENTIALS = {
 ```
 tabsHideOnSubPages="true"
 ```
+```
+<ion-content padding style="background:url(assets/img/1LLoNbYkQ4qBJhcsNVh6_bg.jpg) no-repeat center;background-size:cover;">
+```
