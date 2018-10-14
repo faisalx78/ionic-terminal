@@ -113,12 +113,13 @@ tabsHideOnSubPages="true"
 <ion-content padding style="background:url(assets/img/1LLoNbYkQ4qBJhcsNVh6_bg.jpg) no-repeat center;background-size:cover;">
 ```
 ```
-.title.title-md {
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    text-align: center;
+ion-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 90px 1px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
 }
 ```
