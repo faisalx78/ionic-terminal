@@ -123,3 +123,5 @@ ion-title {
   text-align: center;
 }
 ```
+
+white-space: pre-line;
