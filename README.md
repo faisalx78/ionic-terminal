@@ -60,6 +60,10 @@ file `app.module.ts`
 ```
 ##### زر الخروج
 ```
+import { App } from 'ionic-angular';
+
+private app: App
+
 logout(){
     const root = this.app.getRootNav();
     root.popToRoot();
